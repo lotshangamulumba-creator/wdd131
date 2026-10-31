@@ -2,9 +2,58 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>WDD131 Justin Celestin Mulumba</title>
-</head>    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>WDD 131 | Justin Célestin Stephane Mulumba</title>
+
+    <meta name="description" content="WDD 131 Home Page Assignment">
+    <meta name="author" content="Justin Célestin Stephane Mulumba">
+
+    <link rel="stylesheet" href="styles/base.css">
+
+    <script src="scripts/getdates.js" defer></script>
+</head>
+ 
 <body>
-    <h1>Hello! WDD131</h1>
+    <header>
+        <span id="course-title">
+            WDD 131: Dynamic Web Fundamentals
+        </span>
+        <nav>
+            <a href="https://www.linkedin.com/in/stephane-lotshanga-mulumba-905601286?utm_source=share_via&utm_content=profile&utm_medium=member_android">LinkedIn</a>
+            <a href="https://byupw.instructure.com" target="_blank">Canvas</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures" target="_blank">Scripture</a>
+            <a href="final-project.html">Final project</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Justin Celestin Stephane Mulumba</h1>
+        <div class="cards">
+            <section class="card">
+                <h2>About me</h2>
+                <img src="images/justin_profile.png" alt="Photo of Justin Celestin Mulumba">
+                <p>My name is Justin Celestin Stephane Mulumba but I go by Celeste, I am 22 years old, I am from The Democratic Republic of Congo(DRC).
+                I live in The Republic of Congo (that might be confusing! but they are two different contries) in Point-Noire which is actually the economic city of The Republic of Congo. 
+                I am a software development student at BYU-IDAHO through BYUPATHWAY-Worldwide. I enjoy learning programming, web development, and technology.
+                My goal is to build software solutions that can positively impact  education and communities in Africa.
+                </p>
+            </section>
+            <section class="card">
+                <h2>Republic of Congo</h2>
+                <img src="/images/flag.png" alt="flag of The Republic of Congo">
+                <p>The Republic of Congo is located in central Africa. Its capital city is Brazzaville. 
+                The country is known for its tropical forest, rivers and its cultural diversity.
+                French is the official language and the country shares the Congo river with the Democratic Republic of Congo </p>
+            </section>
+        </div>
+    </main>
+    <footer>
+       <p>
+        &copy;
+        <span id="currentyear"></span>
+        | Justin Celestin Stephane Mulumba | Republic of the Congo
+       </p> 
+        <p id="lastModified"></p>
+    </footer>
 </body>
 </html>
